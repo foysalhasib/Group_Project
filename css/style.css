@@ -1,24 +1,291 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    outline: 0;
+}
+ul,li,ol{
+    list-style-type: none;
 }
 a{
     text-decoration: none;
-    display: inline-block;
-}
-ul,ol{
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-img{
-    display: block;
-}
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+    list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,p{
+    line-height: 0.8px;
+}
+
+/* Navber Start */
+.navbar{
+padding: 20px 0px 70px 0px ;
+}
+.navBtn{
+ background-color: #7678ED;
+ color: white;
+ border-radius: 0;
+ padding: 16px 32px;
+ border: none;
+ font-family:"Commissioner", sans-serif;
+}
+
+.nav-item .nav-link{
+    font-family:"Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #62636C ;
+}
+/* Navber End */
+/* Hero Section Start */
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.heroTitle{
+    width: 537px;
+    font-family:"Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #13132C ;
+}
+.herodetails{
+    width: 400px;
+    font-family:"Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #898998 ;
+}
+.heroBtn{
+    border : 1px solid #7678ED;
+    color: #7678ED;
+    background-color: #FFFFFF;
+    border-radius: 0;
+    padding: 16px 32px;
+    font-family:"Commissioner", sans-serif;    
+}
+
+.herobutton{
+    display: flex;
+    column-gap: 16px;
+    padding: 40px 0px;
+}
+
+
+
+.heroBottom{
+    display: flex;
+    column-gap: 24px ;
+}
+
+
+.bottomBigT{
+    font-family:"Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F18701 ;
+}
+.bottomSmallT{
+    font-family:"Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 16pxpx;
+    color: #13132C ;
+}
+
+.bannerImg{
+    height:520px ;
+    width:560px ;
+    position: absolute;   
+}
+
+.heroImageTop{
+    width: 300px;
+    height: 220px;
+    background-color:#FFFFFF ;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap:20px ;
+    position: relative;
+    top: 200px;
+    left:-100px;
+}
+
+.topTitle{
+    font-family:"Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 14pxpx;
+    color: #898998 ;
+}
+.topDetails{
+    font-family:"Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #13132C ;
+}
+.topIcon{
+    color:#F18701;
+    background-color:#FFF7EC ;
+    font-size: 24px;
+    padding: 12px;
+}
+.imageTop{
+display: flex;
+column-gap: 16px;
+justify-content: center;
+align-items: center;
+}
+.toptitle{
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+justify-content: start;
+}
+
+/* Responsive Start */
+@media (max-width: 767px) {
+    /* Navber Start */
+    .navbar-toggler{
+        border: none;
+        color: black;
+    }
+.navbar{
+    padding: 20px 0px 30px 0px ;
+    }
+    .navBtn{
+     background-color: #7678ED;
+     color: white;
+     border-radius: 0;
+     padding: 16px 32px;
+     border: none;
+     font-family:"Commissioner", sans-serif;
+    }
+    
+    .nav-item .nav-link{
+        font-family:"Commissioner", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #62636C ;
+    }
+    /* Navber End */
+    /* Hero Section Start */
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroTitle{
+        width: 300px;
+        font-family:"Commissioner", sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        color: #13132C ;
+        padding-top: 300px;
+        text-align: center;
+    }
+    .herodetails{
+        width: 300px;
+        font-family:"Commissioner", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #898998 ;
+        text-align: center;
+    }
+    .heroBtn{
+        border : 1px solid #7678ED;
+        color: #7678ED;
+        background-color: #FFFFFF;
+        border-radius: 0;
+        padding: 16px 32px;
+        font-family:"Commissioner", sans-serif;    
+    }
+    
+    .herobutton{
+        display: flex;
+        column-gap: 16px;
+        align-items: center;
+        padding: 40px 0px;
+    }
+    
+    
+    .heroBottom{
+        display: flex;
+        column-gap: 14px ;
+    }
+    
+    
+    .bottomBigT{
+        font-family:"Commissioner", sans-serif;
+        font-weight: 500;
+        font-size: 36px;
+        color: #F18701 ;
+    }
+    .bottomSmallT{
+        font-family:"Commissioner", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #13132C ;
+    }
+    
+    .bannerImg{
+        height: 400px ;
+        width: 300px ;
+       
+    }
+    .bannerImageS{
+        padding: 0px 0px 0px 40px;
+    }
+    .heroImageTop{
+        width: 200px;
+        height: 170px;
+        background-color:#FFFFFF ;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        row-gap:10px ;
+        position: relative;
+        top: 140px;
+        left:-50px;
+    }
+    
+    .topTitle{
+        font-family:"Commissioner", sans-serif;
+        font-weight: 400;
+        font-size: 8px;
+        color: #898998 ;
+    }
+    .topDetails{
+        font-family:"Commissioner", sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: #13132C ;
+    }
+    .topIcon{
+        color:#F18701;
+        background-color:#FFF7EC ;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .imageTop{
+        display: flex;
+        column-gap: 6px;
+        justify-content: center;
+        align-items: center;
+    }
+    .toptitle{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+        justify-content: start;
+    }      
+    /* Hero Section End */       
+}
+/* Responsive End */
+
+/* Hero Section End */
 
 
 /* ============= Record_part Start =================== */

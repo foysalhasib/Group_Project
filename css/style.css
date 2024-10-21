@@ -9,3 +9,144 @@ ul,li,ol{
 a{
     text-decoration: none;
 }
+
+
+
+
+
+/* popular start */
+
+/* font-family: "Commissioner", sans-serif; */
+
+#popular{
+    background-color: #FAFAFA;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.popular-heading h4{
+    font-family: "Commissioner", sans-serif;
+    font-size: 48px;
+    line-height: 70px;
+    color: #13132C;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.popular-heading p{
+    font-family: "Commissioner", sans-serif;
+    font-size: 14.5px;
+    line-height: 24px;
+    color: #898998;
+    font-weight: 400;
+    margin-top: 24px;
+    padding: 0 10px;
+}
+
+.popular-tabs{
+    margin-top: 40px;
+}
+
+.nav-tab-button{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.nav-tab-button button {
+    padding: 16px 32px;
+    background-color: transparent;
+    color: #898998;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #DDDDDD;
+    transition: all linear 0.3s;
+}
+
+.nav-tab-button button:hover{
+    background-color: #7678ED;
+    color: #fff;
+}
+
+.popular-item {
+    background-color: #fff;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.popular-img{
+    height: 234px;
+    background-color: #C4C4C4;
+}
+
+.popular-item-content{
+    margin-top: 24px;
+}
+
+.left-content h4{
+    color: #13132C;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    max-width: 158px;
+}
+
+.left-content ul {
+    color: #898998;
+    font-family: "Commissioner", sans-serif;
+    font-size: 12px;
+    column-gap: 16px;
+    align-items: center;
+    font-weight: 400;
+    margin-left: -31px;
+}
+
+.left-content ul li:last-child{
+    position: relative;
+}
+
+.left-content ul li:last-child::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #7678ED;
+}
+
+.playbutton {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #F2F2F2;
+    color: #7678ED;
+    font-size: 12px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+.tabs-more-button button{
+    padding: 16px 32px;
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+    margin-top: 24px;
+}
+
+.tabs-more-button button:hover{
+    background-color: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+}
+
+/* popular end */

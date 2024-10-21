@@ -8,4 +8,9 @@ ul,li,ol{
 }
 a{
     text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
 }

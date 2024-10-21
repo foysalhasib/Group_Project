@@ -40,3 +40,230 @@
 }
 
 /* ========== beloved section end ========== */
+
+/* footer start here */
+@media(max-width:575px){
+    .footer_wrapper {
+        position: relative;
+        display: block;
+    }
+    .footer_main {
+        display: block;
+    }
+    .footer_wrapper::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 1px;
+        width: 345px;
+        top: 620px;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+    .footer_wrapper_three {
+        display: flex;
+        column-gap: 70px;
+    }
+    .footer_wrapper_two {
+        display: flex;
+        column-gap: 86px;
+        margin-bottom: 32px;
+    }
+    .footer_wrapper_details h3 {
+        width: 360px;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Commissioner", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    .copyright h1 {
+        text-align: left;
+        color: #FFF;
+        font-family: "Commissioner",sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 72px;
+    }
+    .copyright{
+        padding-left: 35px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .footer_wrapper {
+        position: relative;
+        display: block;
+    }
+    .footer_main {
+        display: block;
+    }
+    .footer_wrapper::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 1px;
+        width: 347px;
+        top: 620px;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+    .footer_wrapper_three {
+        display: flex;
+        column-gap: 70px;
+    }
+    .footer_wrapper_two {
+        display: flex;
+        column-gap: 86px;
+        margin-bottom: 32px;
+    }
+    .footer_wrapper_details h3 {
+        width: 360px;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Commissioner", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    .copyright h1 {
+        text-align: left;
+        color: #FFF;
+        font-family: "Commissioner",sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 72px;
+    }
+    .copyright{
+        padding-left: 35px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .footer_wrapper {
+        position: relative;
+        display: block;
+    }
+    .footer_main {
+        display: block;
+    }
+    .footer_wrapper::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 1px;
+        width: 347px;
+        top: 620px;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+    .footer_wrapper_three {
+        display: flex;
+        column-gap: 70px;
+    }
+    .footer_wrapper_two {
+        display: flex;
+        column-gap: 86px;
+        margin-bottom: 32px;
+    }
+    .footer_wrapper_details h3 {
+        width: 360px;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Commissioner", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    .copyright h1 {
+        text-align: left;
+        color: #FFF;
+        font-family: "Commissioner",sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 72px;
+    }
+    .copyright{
+        padding-left: 35px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    .footer_wrapper {
+        position: relative;
+        display: block;
+    }
+    .footer_main {
+        display: block;
+    }
+    .footer_wrapper::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 1px;
+        width: 347px;
+        top: 620px;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+    .footer_wrapper_three {
+        display: flex;
+        column-gap: 70px;
+    }
+    .footer_wrapper_two {
+        display: flex;
+        column-gap: 86px;
+        margin-bottom: 32px;
+    }
+    .footer_wrapper_details h3 {
+        width: 360px;
+        color: rgba(255, 255, 255, 0.72);
+        font-family: "Commissioner", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 32px;
+    }
+    .copyright h1 {
+        text-align: left;
+        color: #FFF;
+        font-family: "Commissioner",sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        margin-top: 72px;
+    }
+    .copyright{
+        padding-left: 35px;
+    }
+}
+@media(min-width:1200px) and (max-width:1399px){
+    .footer_wrapper_three {
+        display: flex;
+        column-gap: 70px;
+    }
+    .footer_wrapper {
+        display: flex;
+        column-gap: 72px;
+        position: relative;
+    }
+    .footer_wrapper_two {
+        display: flex;
+        column-gap: 72px;
+    }
+    .footer_wrapper::after {
+        position: absolute;
+        content: "";
+        left: 0;
+        height: 1px;
+        width: 100%;
+        top: 228px;
+        background-color: rgba(255, 255, 255, 0.64);
+    }
+}
+/* footer end here */

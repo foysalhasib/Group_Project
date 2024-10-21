@@ -319,3 +319,79 @@ h1,h2,h3,h4,h5,h6,p{
     margin-left: 30px;
 }
 /* ========== beloved section end ========== */
+
+
+
+
+/* footer start here */
+footer{
+    background: #13132C;
+    padding: 90px 0;
+}
+.footer_wrapper_details h3{
+    width: 360px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 30px;
+}
+.footer_items h1{
+    color: #FFF;
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.footer_items ul li{
+    margin-bottom: 24px;
+}
+.footer_items ul li a{
+    color: rgba(255, 255, 255, 0.72);
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    
+}
+.footer_items ul li:last-child{
+    margin-bottom: 0;
+}
+.footer_main{
+    display: flex;
+    column-gap: 74px;
+}
+.footer_wrapper_two{
+    display: flex;
+    column-gap: 96px;
+}
+.footer_wrapper{
+    display: flex;
+    column-gap: 96px;
+    position: relative;
+}
+.footer_wrapper::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 1px;
+    width: 92%;
+    top: 228px;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+.copyright h1{
+    text-align: center;
+    color: #FFF;
+    font-family: "Commissioner",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 72px;
+}
+.footer_wrapper_three{
+    display: flex;
+    column-gap: 96px;
+}
+/* footer end here */

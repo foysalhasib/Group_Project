@@ -130,3 +130,68 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ============= makes_part End =================== */
+
+
+
+
+/* ========== beloved section start ========== */
+#beloved{
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+#beloved .heading{
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 56px;
+}
+
+#beloved h2{
+    max-width: 403px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+#beloved .review{
+    padding: 18px 40px;
+    font-size: 16px;
+    line-height: 19.50px;
+    color:#7678ED;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid #7678ED;
+    background: none;
+}
+
+#beloved .col-lg-4 {
+    padding: 24px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+}
+
+#card-item{
+    border: 1px solid #62636C;
+}
+
+#beloved .card-item p{
+    color: #62636C;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#beloved .person{
+    display: flex;
+    margin-top: 34px;
+
+}
+
+#beloved .name-designation{
+    margin-left: 30px;
+}
+/* ========== beloved section end ========== */

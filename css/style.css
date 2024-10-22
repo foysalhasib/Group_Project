@@ -1,16 +1,132 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 0;
+    box-sizing: border-box;
 }
-ul,li,ol{
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
-a{
-    text-decoration: none;
-    list-style: none;
+img{
+    display: block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
 }
 
-a{
-    text-decoration: none;
+
+
+/* ============= Record_part Start =================== */
+#record {
+    padding: 64px 0;
+    background: #FAFAFA;
 }
+#record h2 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132C);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    width: 630px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+#record p {
+    width: 600px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 24px auto 0;
+}
+#record .box {
+   margin-top: 48px;
+   padding: 24px 35px;
+   background: #FFF;
+   box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+   
+}
+#record .box  .image {
+    display: flex;
+    justify-content: center;
+}
+#record .box h5 {
+    margin-top: 32px;
+    color: var(--Podcast-Landing-Page-teks-1, #13132C);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 20px;
+    font-weight: 500;
+}
+#record .box h6 {
+    margin-top: 16px;
+    width: 212px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* ============= Record_part End =================== */
+/* =============  makes_part Start =================== */
+#makes {
+    padding: 48px 0;
+    background: #FFF;
+}
+#makes .left h2{
+         width: 522px;
+         color: var(--Podcast-Landing-Page-teks-1, #13132C);
+         font-family: Commissioner;
+         font-size: 48px;      
+         font-weight: 600;
+         line-height: 70px;
+         text-transform: capitalize;
+}
+#makes .left p{
+    margin-top: 16px;
+    width: 350px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#makes .left ul{
+    margin-top: 34px;
+}
+#makes .left ul li{
+    margin-top: 24px;
+    color: var(--Podcast-Landing-Page-teks-1, #13132C);
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+#makes .left ul li img{
+  display: inline-block;
+  margin-right: 12px;
+   
+}
+#makes .left a{
+    margin-top: 40px;
+    padding: 18px 40px;
+    background: var(--Podcast-Landing-Page-blue, #7678ED);
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 600;  
+   
+}
+
+/* ============= makes_part End =================== */

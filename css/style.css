@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,p{
     line-height: 0.8px;
 }
 
-/* Navber Start */
+/*==================== Navber Start ====================*/
 .navbar{
 padding: 20px 0px 70px 0px ;
 }
@@ -39,11 +39,15 @@ padding: 20px 0px 70px 0px ;
     font-size: 16px;
     color: #62636C ;
 }
-/* Navber End */
-/* Hero Section Start */
+/*=========================== Navber End ============== */
+
+
+
+/*============================ Hero Section Start ==================*/
 .header{
     display: flex;
     flex-direction: row;
+    padding-bottom: 48px;
 }
 .heroTitle{
     width: 537px;
@@ -91,7 +95,7 @@ padding: 20px 0px 70px 0px ;
 .bottomSmallT{
     font-family:"Commissioner", sans-serif;
     font-weight: 400;
-    font-size: 16pxpx;
+    font-size: 16px;
     color: #13132C ;
 }
 
@@ -145,7 +149,7 @@ row-gap: 10px;
 justify-content: start;
 }
 
-/* Responsive Start */
+/*============ Responsive Start  ================ */
 @media (max-width: 767px) {
     /* Navber Start */
     .navbar-toggler{
@@ -286,7 +290,7 @@ justify-content: start;
 }
 /* Responsive End */
 
-/* Hero Section End */
+/*================ Hero Section End ===================*/
 
 
 /* ============= Record_part Start =================== */
@@ -299,14 +303,14 @@ justify-content: start;
     text-align: center;
     font-family: Commissioner;
     font-size: 48px;
-    width: 630px;
+    width: 748px;
     font-weight: 600;
     line-height: 70px;
     text-transform: capitalize;
     margin: 0 auto;
 }
 #record p {
-    width: 600px;
+    width: 618px;
     color: var(--Podcast-Landing-Page-teks-3, #898998);
     text-align: center;
     font-family: Commissioner;
@@ -394,6 +398,7 @@ justify-content: start;
     font-family: Commissioner;
     font-size: 16px;
     font-weight: 600;  
+    display: inline-block;
    
 }
 #makes .right {
@@ -506,173 +511,17 @@ justify-content: start;
     z-index: -1;
 }
 
-
-
- 
-
-
-
-
-
-
 /* ============= makes_part End =================== */
 
 
 
-
-/* ========== beloved section start ========== */
-#beloved{
-    align-items: center;
-    margin-top: 50px;
-    
-}
-
-#beloved .heading{
-    align-items: center;
-    padding-top: 65px;
-    padding-bottom: 56px;
-}
-
-#beloved h2{
-    max-width: 403px;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 70px;
-}
-
-#beloved .right{
-    display: flex;
-    justify-content: end;
-    
-}
-#beloved .review{
-    padding: 18px 40px;
-    font-size: 16px;
-    line-height: 19.50px;
-    color:#7678ED;
-    border: none;
-    border-radius: 2px;
-    border: 1px solid #7678ED;
-    background: none;
-
-}
-
-#beloved .col-lg-4 {
-    padding: 24px;
-    border: 1px solid #DDD;
-    background: #FFF;
-    display: grid;
-    gap: 5px;
-    grid-template-columns: auto auto auto;
-}
-
-#card-item{
-    border: 1px solid #62636C;
-}
-
-#beloved .card-item p{
-    color: #62636C;
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#beloved .person{
-    display: flex;
-    margin-top: 34px;
-
-}
-
-#beloved .name-designation{
-    margin-left: 30px;
-}
-/* ========== beloved section end ========== */
+/*============================= popular start ===========================*/
 
 
-
-
-/* footer start here */
-footer{
-    background: #13132C;
-    padding: 90px 0;
-}
-.footer_wrapper_details h3{
-    width: 360px;
-    color: rgba(255, 255, 255, 0.72);
-    font-family: "Commissioner", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 28px; 
-    margin-top: 30px;
-}
-.footer_items h1{
-    color: #FFF;
-    font-family: "Commissioner", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 32px;
-}
-.footer_items ul li{
-    margin-bottom: 24px;
-}
-.footer_items ul li a{
-    color: rgba(255, 255, 255, 0.72);
-    font-family: "Commissioner", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    
-}
-.footer_items ul li:last-child{
-    margin-bottom: 0;
-}
-.footer_main{
-    display: flex;
-    column-gap: 74px;
-}
-.footer_wrapper_two{
-    display: flex;
-    column-gap: 96px;
-}
-.footer_wrapper{
-    display: flex;
-    column-gap: 96px;
-    position: relative;
-}
-.footer_wrapper::after{
-    position: absolute;
-    content: "";
-    left: 0;
-    height: 1px;
-    width: 92%;
-    top: 228px;
-    background-color: rgba(255, 255, 255, 0.64);
-}
-.copyright h1{
-    text-align: center;
-    color: #FFF;
-    font-family: "Commissioner",sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
-    margin-top: 72px;
-}
-.footer_wrapper_three{
-    display: flex;
-    column-gap: 96px;
-}
-/* footer end here */
-
-
-/* popular start */
-
-/* font-family: "Commissioner", sans-serif; */
 
 #popular{
-    background-color: #FAFAFA;
-    padding-top: 64px;
-    padding-bottom: 64px;
+    background: #FAFAFA;
+    padding: 64px 0;
 }
 
 .popular-heading h4{
@@ -685,7 +534,7 @@ footer{
 }
 .popular-heading p{
     font-family: "Commissioner", sans-serif;
-    font-size: 14.5px;
+    font-size: 14px;
     line-height: 24px;
     color: #898998;
     font-weight: 400;
@@ -716,6 +565,10 @@ footer{
 }
 
 .nav-tab-button button:hover{
+    background-color: #7678ED;
+    color: #fff;
+}
+.nav-tab-button .active{
     background-color: #7678ED;
     color: #fff;
 }
@@ -800,16 +653,14 @@ footer{
     border: 1px solid #7678ED;
 }
 
-/* popular end */
-.container{
-    width: 1200px;
-    /* background-color: aliceblue; */
+/* =====================  popular end ==================== */
+
+
+
+/* ------================== flexible prising css start ================------  */
+#flexible_prising{
+    padding: 48px 0;
 }
-
-
-/* ----common css end-------  */
-
-/* ------ flexible prising css start ------  */
 #flexible_prising .container h3{
     max-width: 554px;
     line-height: 70px;
@@ -818,7 +669,6 @@ footer{
     align-items: center;
     margin: 0 auto;
     color: #13132C;
-    margin-top: 48px;
     margin-bottom: 24px;
 
 }
@@ -856,7 +706,6 @@ footer{
  .cart_box{
     display: flex;
     flex-direction: row;
-    /* background-color: red; */
     margin-bottom: 48px;
  }
  #flexible_prising .container .cart{
@@ -872,11 +721,10 @@ footer{
     background: #7678ED;
     color: #ffffff;
     padding: 24px;
-    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+    box-shadow: 12px 34px 74px 0px rgba(29, 18, 144, 0.04);
   }
 
  #flexible_prising .container .cart h4{
-    /* max-width: 201px; */
     font-family: commissoner;
     font-weight: 500;
     line-height: 38px;
@@ -919,6 +767,39 @@ footer{
     margin-top: -25px;
     margin-left: 20px;
  }
+ #flexible_prising .box:hover{
+    background: var(--Podcast-Landing-Page-blue, #7678ED);
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+ }
+ #flexible_prising .box:hover h4,#flexible_prising .box:hover p,#flexible_prising .box:hover .today,
+ #flexible_prising .box:hover strong,#flexible_prising .box:hover .text h5,
+ #flexible_prising .box:hover .text h6, #flexible_prising .box:hover ul li p {
+    color: #fff;
+ }
+
+ #flexible_prising .text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 34px;
+ }
+ #flexible_prising .text h5{
+    color: var(--Podcast-Landing-Page-teks-1, #13132C);
+    font-family: Commissioner;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px; 
+ }
+ #flexible_prising .text h6{
+    margin-left: 4px;
+    margin-top: 24px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+
+ }
+
+
  #flexible_prising .container .cart .flexbox button{
     max-width: 336px;
     padding: 18px 125px;
@@ -972,4 +853,170 @@ footer{
  }
 
 
-/* ------ flexible prising css end ------  */
+/* ------=========== flexible prising css end ============------  */
+
+
+/* ========== beloved section start ========== */
+#beloved{
+    align-items: center;
+    padding: 64px 0 140px;
+}
+
+#beloved .heading{
+    align-items: center;
+    padding-top: 65px;
+    padding-bottom: 56px;
+}
+
+#beloved h2{
+    max-width: 403px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+#beloved .right{
+    display: flex;
+    justify-content: end;
+    
+}
+#beloved .review{
+    padding: 18px 40px;
+    font-size: 16px;
+    line-height: 19.50px;
+    color:#7678ED;
+    border: none;
+    border-radius: 2px;
+    border: 1px solid #7678ED;
+    background: none;
+
+}
+#beloved .review:hover{
+    background: var(--Podcast-Landing-Page-blue, #7678ED);
+    color: #13132C;
+
+}
+
+
+#beloved .box{
+  padding: 24px;
+  border: 1px solid #DDD;
+  background: #FFF;
+  
+}
+#beloved .box p{
+  margin-top: 36px;
+  width: 336px;
+  color: var(--Podcast-Landing-Page-teks-2, #62636C);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px; 
+  
+}
+#beloved .bottom{
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+
+}
+#beloved .bottom h5{
+    margin-top: 16px;
+    color: var(--Podcast-Landing-Page-teks-1, #13132C);
+    font-family: Commissioner;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+#beloved .bottom h6{
+    margin-top: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ========== beloved section end ========== */
+
+
+
+
+/*================== footer start here ===================*/
+footer{
+    background: #13132C;
+    padding: 130px 0 80px;
+}
+.footer_wrapper_details h3{
+    width: 360px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    margin-top: 30px;
+}
+.footer_items h2{
+    color: #FFF;
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.footer_items ul li{
+    margin-bottom: 24px;
+}
+.footer_items ul li a{
+    color: rgba(255, 255, 255, 0.72);
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    
+}
+.footer_items ul li:last-child{
+    margin-bottom: 0;
+}
+.footer_main{
+    display: flex;
+    column-gap: 74px;
+}
+.footer_wrapper_two{
+    display: flex;
+    column-gap: 96px;
+}
+.footer_wrapper{
+    display: flex;
+    column-gap: 96px;
+    position: relative;
+}
+.footer_wrapper::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 1px;
+    width: 92%;
+    top: 228px;
+    background-color: rgba(255, 255, 255, 0.64);
+}
+.copyright h6{
+    text-align: center;
+    color: #FFF;
+    font-family: "Commissioner",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 72px;
+}
+.footer_wrapper_three{
+    display: flex;
+    column-gap: 96px;
+}
+/*================ footer end here  ================= */
+
+
+
+
+
